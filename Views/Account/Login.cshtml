@@ -1,0 +1,53 @@
+﻿@model Shop_Shoes.Models.Account
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<body id="img1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4" id="logo-login">
+                <h1>Đăng Nhập</h1>
+                @using (Html.BeginForm("Login", "Account",FormMethod.Post))
+                {
+                <div class="row">
+                    <div class="col-md-12">
+                        <img id="logo_user" src="~/Content/Image/icon user2.png" style="margin-top:5px;" />
+                        @Html.TextBoxFor(model => model.User_s, new { @class = "from-control placeholder-no-fix", @id = "user-text", @style = "Border-radius:5px;", @type = "text", @placeholder = "User.." })
+                    </div>
+                    <div class="col-md-12">
+                    @Html.ValidationMessageFor(model=>model.User_s)
+                    </div>
+                    <div class="col-md-12">
+                    <img id="logo_pass" src="~/Content/Image/icon-pass1.png" style="margin-top:5px;" />
+                    @Html.TextBoxFor(model => model.Pass_word, new { @class = "from-control",@id="pass-text",@style="Border-radius:5px;", @type = "password", @placeholder = "Password.." })
+                    </div>
+                    <div class="col-md-12">
+                    @Html.ValidationMessageFor(model=>model.Pass_word)
+                    </div>
+                </div>
+                    <div class="row"><div class="col-md-1" id="check"><input type="checkbox" class="form-check" name="check" width="30%"></div><div class="col-md-5" id="text">Remember me</div></div>
+                    <input id="submit-but" type="submit" value="Đăng Nhập" name="Login" />
+                }
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+Login=function()
+{
+	document.getElementById("submit-but").name="Registered"
+	}
+    function errors()
+    {
+        var x = document.forms["myform"]["fname"].value;
+        if (x == "")
+        {
+            alert("Bạn chưa nhập tên");
+            return false;
+        }
+    }
+</script>
+</html>

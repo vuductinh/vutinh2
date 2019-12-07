@@ -1,0 +1,82 @@
+﻿@using PagedList.Mvc;
+@model PagedList.PagedList<Shop_Shoes.Models.Item>
+@using Shop_Shoes.Models
+@{
+    ViewBag.Title = "Home";
+
+}
+@using Shop_Shoes.Models;
+<html>
+<body>
+    <div class="row " id="background">
+
+    </div>
+    <div class="row" id="nav-color">
+        <div class="col-md-4 border1" id="text-aline">Đặt hàng trong và ngoài nước<p id="color1">For shoes only</p></div>
+        <div class="col-md-4 border1" id="text-aline">Đổi trả hàng<p id="color1">In 7 days</p></div>
+        <div class="col-md-4 " id="text-aline">Online order<p id="color1">Hotline:096282862</p></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="~/Content/Image/giayda9.jpg" class="size" id="size-zom" onclick="Zom()" /></div>
+            <div class="col-md-6"><img src="~/Content/Image/giayda0.jpg" class="size" id="size-zom" /></div>
+        </div>
+        <div class="row">
+            @foreach (Item item in ViewBag.ListImg)
+            {
+                <div class="col-md-4" id="textaline">
+                    <a href="@Url.Action("ChiTiet","ChiTietSP",new {id=@item.IdItem })" title="Giày Oxford"><img src="~/Content/Image/@item.linkImg" id="size-image" /></a>
+                    <br />
+                    <a href="@Url.Action("ChiTiet","ChiTietSP",new {id=@item.IdItem })" title="Giày Oxford"><p id="size-name-item"></p>@item.Name_Item</a>
+                    <p id="size-cost"> Giá :@item.cost Đ </p>
+                </div>
+            }
+            <div class="col-md-12" style="text-align:center">
+               <div class="clr"></div>
+               <div class="pagenavi">
+                   Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/ @Model.PageCount
+                   @Html.PagedListPager(Model, page => Url.Action("Home", new { page = page }))
+               </div>
+             </div>
+        </div>
+        <div class="row"><div class="col-md-12" id="font-size-foder"><p>SHOE STYLE</p></div></div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="~/Content/Image/img-forder.jpg" id="img-size-forder" />
+                <u><p id="date">08-08-2019</p></u>
+                <p id="font-size-foder">Chọn giày đi chơi,sao phải đau đầu</p>
+                <p id="font-size-forder-contain">
+                    Đây chắc chắn là bộ đôi giày tây cao cấp được sử dụng nhiều nhất nơi công sở. Sở hữu cho mình thiết kế cổ điển sang trọng ở từng chi tiết, giày tây Oxford và Derby đã từ lâu được xem là chuẩn mực thời trang của quý ông. Vì vậy, chắc chắn lựa chọn đầu tiên mà bạn luôn nghĩ đến sẽ là...
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="~/Content/Image/img-forder1.jpg" id="img-size-forder" />
+                <u><p id="date1">08-08-2019</p></u>
+                <p id="font-size-foder">Xu hướng chọn sandal sao cho lịch lãm và sang trọng</p>
+                <p id="font-size-forder-contain">
+                    Thắt lưng thời trang luôn là dòng phụ kiện không thể thiếu đối với bất kỳ phái mạnh nào. Đi công việc, đi ra ngoài hay thậm chí là đi chơi thì việc các bạn thiếu đi một chiếc thắt lưng đó sẽ là một thiếu sót. Là một trong những món phụ kiện thời trang bán chạy nhất trên thị trường hiện nay, thắt lưng da cá sấu đang là xu hướng lựa chọn và luôn nằm trong TOP đầu những sản phẩm nhận được sự quan tâm của quý khách hàng...
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function DateTime() {
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1;
+        var yy = today.getFullYear();
+        if (dd < 10) {
+            dd = '0' + dd;
+        }
+        if (mm < 10) {
+            mm = '0' + mm;
+        }
+        return dd + "-" + mm + "-" + yy;
+    }
+    document.getElementById("date").innerHTML = DateTime();
+    document.getElementById("date1").innerHTML = DateTime();
+</script>
+</html>
+
+

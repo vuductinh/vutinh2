@@ -1,0 +1,94 @@
+﻿@using Shop_Shoes.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<Shop_Shoes.Models.listOrder>
+@{
+    ViewBag.Title = "listOrder";
+    Layout = "~/Views/Shared/_MyLayoutPage.cshtml";
+}
+<div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+        <form class="form-group" @Url.Action("ListItems", "Admin") method="post">
+            <input type="text" class="form-control" name="search" placeholder="Search..." style="width:80%; margin-top:5px;margin-bottom:-4px;" />
+            <input type="submit" value="Tìm kiếm" style="float:right; margin-top:-30px;">
+        </form>
+    </div>
+</div>
+<div class="row" style="margin-top:-8px;">
+    <div class="col-md-12">
+        <table class="table table-bordered table-sm">
+            <tr>
+                <th>
+                    Mã khách hàng
+                </th>
+                <th>
+                    Ngày tạo
+                </th>
+                <th>
+                    Người nhận
+                </th>
+                <th>
+                    Số điện thoại
+                </th>
+                <th>
+                    Địa chỉ
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Tên sản phẩm
+                </th>
+                <th>
+                    Số lượng
+                </th>
+                <th>
+                    Đơn giá
+                </th>
+            </tr>
+            @foreach (var item in ViewBag.list)
+            {
+            <tr>
+                <td>
+                    @item.custumerID
+                </td>
+                <td>
+                    @item.dateCreate
+                </td>
+                <td>
+                    @item.shipName
+                </td>
+                <td>
+                    @item.shipMobile
+                </td>
+                <td>
+                    @item.shipAdress
+                </td>
+                <td>
+                    @item.shipEmail
+                </td>
+                <td>
+                    @item.itemName
+                </td>
+                <td>
+                    @item.quantity
+                </td>
+                <td>
+                   @String.Format(  "{0:0,0}",@item.priceItem) Đ
+                </td>
+            </tr>
+            }
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4" style="text-align:center;"></div>
+    <div class="col-md-4">
+        <div class="clr"></div>
+        <div class="pagenavi">
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/ @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("listOrder", new { page = page }))
+        </div>
+    </div>
+</div>
+

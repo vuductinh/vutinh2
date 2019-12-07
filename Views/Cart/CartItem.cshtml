@@ -1,0 +1,87 @@
+﻿@model List<Shop_Shoes.Models.CartItem>
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Mã SP</td>
+            <td>Tên SP</td>
+            <td>Ảnh</td>
+            <td>Số lượng</td>
+            <td>Đơn giá</td>
+            <td>Thành tiền</td>
+            <td></td>
+        </tr>
+    </thead>
+    @if (Model.Count > 0)
+    {
+        <tbody>
+            @foreach (var item in Model)
+            {
+                using (Html.BeginForm("updateCart", "Cart", new { @id = item.ID }))
+                {
+                    <tr>
+                        <td>@item.ID</td>
+                        <td>@item.Name</td>
+                        <td><img src="~/Content/Image/@item.link" width="50px" /></td>
+                        <td style="width:10px;"><input type="text" name="txtSoLuong" value="@item.quantity" style="width:40px;"/> </td>
+                        <td>@String.Format("{0:0,0}", @item.cost) VNĐ</td>
+                        <td>@String.Format("{0:0,0}", @item.cost * @item.quantity) VNĐ</td>
+                        <td>
+                            <input type="submit" value="Cập nhật" class="btn" />
+                            <a href="@Url.Action("deleteCart","Cart",new { @id=item.ID})">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    }
+    else
+    {
+        <tr><td>Chưa có sản phẩm nào</td></tr>
+    }
+</table>
+<button id="btnContinue" class="btn"><a href="@Url.Action("Home","Home")">Tiếp tục mua</a></button>
+<button id="btnPayment" class="btn"><a href="@Url.Action("formOrder","Cart")">Thanh toán</a></button>
+@if (Model.Count > 0)
+{
+    <div style="float:left;margin-top:7px;">@Model.Count Sản Phẩm    |   Tổng số tiền:@String.Format("{0:0,0}", @ViewBag.price) VNĐ</div>
+}
+else
+{<div style="float:left; margin-top:7px;">Số sản phẩm: 0    |   Tổng số tiền:0 VNĐ</div>}
+</div>
+<script>
+    var cart = {
+        init: function () { cart.regEvents(); },
+        regEvents: function () {
+            $('#btnContinue').off('click').on('click', function () {
+                window.location.href = "/";
+            });
+            $('#btn-Update').off('click').on('click', function () {
+                var listProduct = $('.txtQuanlity');
+                var cartList = [];
+                $.each(listProduct, function (i, item) {
+                    cartList.pop({
+                        quantity: $(this).val(),
+                        ID: $(item).data('id')
+                    });
+                });
+                $.ajax({
+                    url: 'Cart/Update',
+                    data: { cartModel: JSON.stringify(cartList) },
+                    dataType: 'json',
+                    type: 'POST',
+                    success: function (res) {
+                        if (res.status == true) { window.location.href = "/gio-hang"; }
+                        else { }
+                    }
+                })
+            });
+        }
+    }
+    cart.init();
+</script>
+

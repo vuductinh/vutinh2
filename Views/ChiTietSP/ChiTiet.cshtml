@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "ChiTiet";
+}
+<html>
+<body>
+    <div class="container">
+        @foreach (var item in ViewBag.Item)
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="~/Content/Image/@item.linkImg" title="" id="size" />
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12"><p id="size-name">@item.Name_Item</p></div>
+                        <div class="col-md-12"><p id="size-cost">@item.cost Đ</p></div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12"><p id="size-property">CẤU TRÚC</p></div>
+                                <div class="col-md-12">
+                                    <select id="size">
+                                        <option>@ViewBag.type</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12"><p id="size-property">KÍCH THƯỚC</p></div>
+                                <div class="col-md-12">
+                                    <select id="size">
+                                        <option>@item.Size</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><p id="size-property">COLOR</p></div>
+                        <div class="col-md-6">
+                            <select id="size">
+                                <option>@item.Color</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12"><p id="size-property">SỐ LƯỢNG</p></div>
+                        <div class="col-md-3"><input type="number" id="size" value="@item.Amount" /></div>
+                        <div class="col-md-12">
+                            <button class="btn-primary" style="width: 100%;height: 40px;margin-top: 10px;border-radius: 5px;">
+                                <a style="color:white;" href="@Url.Action("AddItem", "Cart", new { @productID = item.IdItem, @quantity = 1, @name = @item.Name_Item, @cost = @item.cost, @name_img = @item.linkImg })">
+                                    Thêm vào giỏ hàng
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+            <div class="row"><p id="size-font-border">MỘT SỐ MẪU KHÁC</p></div>
+            <hr />
+            <div class="row">
+                <div class="col-md-4" id="textaline">
+                    <a href="chitietsanpham.html" title="Giày Oxford"><img src="~/Content/Image/giayda-taydabo.jpg" id="size-image" /></a>
+                    <a href="chitietsanpham.html" title="Giày Oxford"><p id="size-name"></br>Giày Oxford</p></a>
+    <p id="size-cost">Giá : 2199000Đ</p>
+    </div>
+    <div class="col-md-4" id="textaline">
+        <a href="#" title="Giày Oxford"><img src="~/Content/Image/giaygia1.jpg" id="size-image" /></a>
+        <a href="#" title="Giày Oxford"><p id="size-name"></br>Giày Oxford</p></a>
+    <p id="size-cost">Giá : 2199000Đ</p>
+    </div>
+    <div class="col-md-4" id="textaline">
+        <a href="#" title="Giày Oxford"><img src="~/Content/Image/giayda-nguabac.jpg" id="size-image" /></a>
+        <a href="#" title="Giày Oxford"><p id="size-name"></br>Giày Oxford</p></a>
+    <p id="size-cost">Giá : 2199000Đ</p>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
+
+

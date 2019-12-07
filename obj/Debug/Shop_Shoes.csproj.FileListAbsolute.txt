@@ -1,0 +1,262 @@
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.dll.config
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.pdb
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.exe
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.exe.config
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.rsp
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.exe
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.exe.config
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.rsp
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.AppContext.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Console.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Compression.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Claims.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.ValueTuple.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.exe
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.exe.config
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.rsp
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Antlr3.Runtime.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\EntityFramework.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\EntityFramework.SqlServer.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Newtonsoft.Json.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.Helpers.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.Mvc.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.Optimization.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.Razor.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\WebGrease.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\EntityFramework.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\EntityFramework.SqlServer.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.Helpers.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.Mvc.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.Optimization.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.Razor.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Newtonsoft.Json.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Antlr3.Runtime.pdb
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\obj\Debug\Shop_Shoes.csprojAssemblyReference.cache
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\obj\Debug\Shop_Shoes.csproj.CoreCompileInputs.cache
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\obj\Debug\Shop_Shoes.csproj.CopyComplete
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\obj\Debug\Shop-Shoes.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\obj\Debug\Shop-Shoes.pdb
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\PagedList.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\PagedList.Mvc.dll
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\PagedList.xml
+C:\Users\Vu Duc Tinh\Downloads\bao_cao_web\Shop-Shoes\Shop-Shoes\bin\PagedList.Mvc.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.dll.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.pdb
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.exe
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.exe.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.rsp
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.exe
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.exe.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.rsp
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.AppContext.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Console.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Compression.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Claims.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.ValueTuple.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.exe
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.exe.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.rsp
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Antlr3.Runtime.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\EntityFramework.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\EntityFramework.SqlServer.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Newtonsoft.Json.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\PagedList.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\PagedList.Mvc.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.Helpers.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.Mvc.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.Optimization.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.Razor.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\WebGrease.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\EntityFramework.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\EntityFramework.SqlServer.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\PagedList.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\PagedList.Mvc.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.Helpers.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.Mvc.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.Optimization.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.Razor.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Newtonsoft.Json.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Antlr3.Runtime.pdb
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\obj\Debug\Shop_Shoes.csproj.CopyComplete
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\obj\Debug\Shop-Shoes.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\obj\Debug\Shop-Shoes.pdb
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\Shop-Shoes\Shop-Shoes\obj\Debug\Shop_Shoes.csprojAssemblyReference.cache
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.dll.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Shop-Shoes.pdb
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.exe
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.exe.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\csc.rsp
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.exe
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.exe.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\csi.rsp
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.AppContext.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Console.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Compression.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Claims.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.ValueTuple.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.exe
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.exe.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\vbc.rsp
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Antlr3.Runtime.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\EntityFramework.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\EntityFramework.SqlServer.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Newtonsoft.Json.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\PagedList.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\PagedList.Mvc.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.Helpers.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.Mvc.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.Optimization.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.Razor.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\WebGrease.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\EntityFramework.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\EntityFramework.SqlServer.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\PagedList.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\PagedList.Mvc.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.Helpers.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.Mvc.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.Optimization.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.Razor.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Newtonsoft.Json.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Antlr3.Runtime.pdb
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\obj\Debug\Shop_Shoes.csproj.CopyComplete
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\obj\Debug\Shop-Shoes.dll
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\obj\Debug\Shop-Shoes.pdb
+C:\Users\Vu Duc Tinh\Downloads\HK_II 18-19\WEB\A\Shop-Shoes\Shop-Shoes\obj\Debug\Shop_Shoes.csprojAssemblyReference.cache

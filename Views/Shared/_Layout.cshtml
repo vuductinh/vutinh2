@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/CSS/bootstrap1.css" rel="stylesheet" />
+    <link href="~/Content/CSS/styleHomeShoes.css" rel="stylesheet" />
+    <link href="~/Content/CSS/styleChitietSP.css" rel="stylesheet" />
+    <link href="~/Content/CSS/styleChamsocgiay.css" rel="stylesheet" />
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+    <link href="~/Content/CSS/styleLogin.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid color">
+        <div class="row visible" id="envisible" style="margin-top:-54px;">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form class="form-group" @Url.Action("Home","Home") method="post">
+                    <input type="text" class="form-control" name="search" placeholder="Search.." style="width:90%;" />
+                    <input type="submit" name="Tìm kiếm" style="margin-top:-36px; float:right;background-image:url(../../Content/Image/logo-search.png);background-size:cover;width:30px; color:transparent;border:none;background-color:white;" />
+                </form>
+            </div>
+        </div>
+        <div class="row header-color">
+            <div class="col-md-8">
+                <nav class=" navbar navbar-expand-sm navbar-light">
+                    <ul class=" navbar-nav font-size">
+                        <li class=" nav-item active">
+                            <span><img id="size-logo" src="~/Content/Image/logo_home.png" /></span>
+                        </li>
+                        <li class=" nav-item active">
+                            <a class=" nav-link" href="@Url.Action("Home","Home")" title="MANGII">MANGII</a>
+                        </li>
+                        <li class=" nav-item active">
+                            <a class=" nav-link" href="@Url.Action("Home","Home")" title="TRANG CHỦ" id="home">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="product" data-toggle="dropdown" href="#">SẢN PHẨM</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="@Url.Action("Styles","Home",new{id=3,id1=1})" id="formal-shoes">GIÀY ĐI CHƠI</a>
+                                <a class="dropdown-item" href="@Url.Action("Styles","Home",new{id=4,id1=1})" id="casual-shoes">GIÀY ĐI LÀM</a>
+                                
+                                <a class="dropdown-item" href="@Url.Action("Styles","Home",new{id=5,id1=5})">BOOT</a>
+                                <a class="dropdown-item" href="@Url.Action("Styles","Home",new{id=5,id1=3})">SANDAL</a>
+                                <a class="dropdown-item" href="@Url.Action("Styles","Home",new{id=5,id1=4})" id="accessories">PHỤ KIỆN</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="services">DỊCH VỤ</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="@Url.Action("Shoe_Care","Home")" id="shoecare">CHĂM SÓC GIÀY</a>
+                                <a class="dropdown-item" href="#" id="resoling">THAY ĐẾ GIÀY</a>
+                                <a class="dropdown-item" href="#" id="color-restoration">PHỤC HỒI GIÀY</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="color" data-toggle="dropdown" href="#">BLOG</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">VĂN HÓA GIÀY TÂY</a>
+                                <a class="dropdown-item" href="#">TÍP THỜI TRANG</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">FAQ</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#" id="product1">SẢN PHẨM</a>
+                                <a class="dropdown-item" href="#" id="warranty">BẢO HÀNH</a>
+                                <a class="dropdown-item" href="#" id="return">ĐỔI TRẢ</a>
+                                <a class="dropdown-item" href="#" id="after-sales">HẬU MÃI</a>
+                                <a class="dropdown-item" href="#" id="frivaky">BẢO MẬT</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="contact">LIÊN HỆ</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">HÀ NỘI</a>
+                                <a class="dropdown-item" href="#">SÀI GÒN</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-8" id="border-left">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="~/Content/Image/logo-search.png" title="search" id="logo-header" onclick="Zom1()" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Login","Account")"><img src="~/Content/Image/icon user.png" title="login" id="logo-header" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("CartItem","Cart")"><img src="~/Content/Image/logo-giohang1.png" title="giohang" id="logo-giohang" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="~/Content/Image/logo-facebook.png" title="facebook" id="logo-header" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="~/Content/Image/logo-instagram.png" title="instagram" id="logo-header" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="~/Content/Image/logo-zalo1.png" title="zalo" id="logo-header" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4" id="border-left">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="~/Content/Image/logo-vietnam.png" title="Việt Nam" id="logo-flag" onclick="nameviet()" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="~/Content/Image/logo-usa.png" title="USA" id="logo-flag-usa" onclick="nameusa()" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid">
+    @RenderBody()
+</div>
+        <div class="container-fluid" id="footer-color">
+            <footer>
+                <hr/>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3" id="footer-boder">
+                                <p id="font-size-footer-name">LIÊN HỆ</p>
+                                <p id="footer-contain">Ngõ 81 Xã Đàn Đống Đa Hà Nội</p>
+                                <p id="footer-contain">Email : vuductinh97@gmail.com</p>
+                                <p id="footer-contain">Điện thoại : 0962857295</p>
+                            </div>
+                            <div class="col-md-3">
+                                <p id="font-size-footer-name">CHÍNH SÁCH</p>
+                                <ul id="footer-nav-contain">
+                                    <li>SẢN PHẨM</li>
+                                    <li>BẢO HÀNH</li>
+                                    <li>HẬU MÃI</li>
+                                    <li>ĐỔI TRẢ</li>
+                                    <li>BẢO MẬT</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <p id="font-size-footer-name">ĐĂNG KÍ NHẬN TIN</p>
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="email">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><img /></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <p id="font-size-footer-name">KẾT NỐI</p>
+                            </div>
+                        </div>
+                    </div>
+            </footer>
+        </div>
+</body>
+<script>
+    function nameusa() {
+        document.getElementById("home").innerHTML = "HOME";
+        document.getElementById("product").innerHTML = "PRODUCT";
+        document.getElementById("services").innerHTML = "SERVICES";
+        document.getElementById("contact").innerHTML = "CONTACT";
+        document.getElementById("formal-shoes").innerHTML = "FORMAL SHOES";
+        document.getElementById("casual-shoes").innerHTML = "CASUAL SHOES";
+        document.getElementById("dressker-shoes").innerHTML = "DRESSKER SHOES";
+        document.getElementById("accessories").innerHTML = "ACCESSORIES";
+        document.getElementById("shoecare").innerHTML = "SHOECARE";
+        document.getElementById("resoling").innerHTML = "RESOLING";
+        document.getElementById("color-restoration").innerHTML = "COLOR RESTORATION";
+        document.getElementById("product1").innerHTML = "PRODUCT";
+        document.getElementById("warranty").innerHTML = "WARRANTY";
+        document.getElementById("return").innerHTML = "RETURN";
+        document.getElementById("after-sales").innerHTML = "AFTER SALES";
+        document.getElementById("frivaky").innerHTML = "FRIVAKY";
+
+    }
+    function nameviet() {
+        document.getElementById("home").innerHTML = "TRANG CHỦ";
+        document.getElementById("product").innerHTML = "SẢN PHẨM";
+        document.getElementById("services").innerHTML = "DỊCH VỤ";
+        document.getElementById("contact").innerHTML = "LIÊN HỆ";
+        document.getElementById("formal-shoes").innerHTML = "GIÀY ĐI LÀM";
+        document.getElementById("casual-shoes").innerHTML = "GIÀY ĐI CHƠI";
+        document.getElementById("dressker-shoes").innerHTML = "GIÀY DRESSKER";
+        document.getElementById("accessories").innerHTML = "PHỤ KIỆN";
+        document.getElementById("shoecare").innerHTML = "CHĂM SÓC GIÀY";
+        document.getElementById("resoling").innerHTML = "THAY ĐẾ GIÀY";
+        document.getElementById("color-restoration").innerHTML = "PHỤC HỒI GIÀY";
+        document.getElementById("product1").innerHTML = "SẢN PHẨM";
+        document.getElementById("warranty").innerHTML = "BẢO HÀNH";
+        document.getElementById("return").innerHTML = "ĐỔI TRẢ";
+        document.getElementById("after-sales").innerHTML = "HẬU MÃI";
+        document.getElementById("frivaky").innerHTML = "BẢO MẬT";
+    }
+    function Zom1() {
+        document.getElementById("envisible").style.marginTop ='10px';
+    }
+</script>
+</html>

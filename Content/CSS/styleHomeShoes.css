@@ -1,0 +1,200 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.header-color
+{
+	background-color:rgb(255,153,0);
+}
+div#border-left
+{
+	border-left:1px #666 solid;
+	margin-top:5px;}
+img#size-logo{
+	width:50px;
+	height:50px;}
+.sub-arrow{
+position: static;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 6px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px dashed transparent;
+    border-bottom: 4px dashed transparent;
+    border-left: 4px dashed transparent;
+}
+.font-size{
+	font-size:14px;
+	font-weight:480;
+	margin-right:15px;
+	font-family:"Times New Roman", Times, serif;
+	color:rgb(0,0,0);
+}
+.color{
+	color:rgb(0,0,0);}
+div#point{
+	float:right;}
+.dropdown-menu{
+	position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+img#logo-header
+{
+	width:15px;
+	height:15px;
+	margin-top:7px;
+	margin-right:-15px;}
+img#logo-giohang
+{
+	width:20px;
+	height:20px;
+	margin-top:5px;
+	margin-right:-15px;}
+	img#logo-flag
+{
+	width:25px;
+	height:15px;
+	margin-top:8px;
+	margin-right:-15px;}
+	img#logo-flag-usa
+{
+	width:21px;
+	height:12px;
+	margin-top:9px;
+	margin-right:-15px;}
+div#background {
+    background-image: url('../anh-nen.png');
+    height: 600px;
+    background-size: cover;
+}
+div#text-aline{
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-size:16px;
+	margin-top:20px;
+	margin-bottom:10px;}
+div#nav-color{
+	background-color:rgb(51,51,51);
+	color:rgb(255,255,255);
+	height:80px;}
+.border1
+{
+	border-right:1px #FFFFFF solid;}
+p#color1{
+	color:rgb(153,153,153);
+	font-size:13px;}
+img.size{
+	width:500px;
+	height:250px;
+	margin-top:40px;}
+img#size-image{
+	width:250px;
+	height:250px;
+	border:none;}
+p#size-name-item{
+	font-family:"Times New Roman", Times, serif;
+	color:rgb(0,0,0);
+	font-size:14px;}
+p#size-cost{
+	font-family:"Times New Roman", Times, serif;
+	color:rgb(255,0,0);
+	font-size:16px;}
+div#textaline
+{
+	text-align:center;
+	margin-top:40px;}
+div#font-size-foder{
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	text-align:center;
+	margin-top:20px;}
+img#img-size-forder{
+	width:500px;
+	height:200px;
+	border:none;
+	margin-top:10px;}
+p#font-size-foder{
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;}
+p#font-size-foder-contain{
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	}
+div#font-size-foder {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img#img-size-forder {
+    width: 500px;
+    height: 200px;
+    border: none;
+    margin-top: 10px;
+}
+
+p#font-size-foder {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+p#font-size-foder-contain {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+}
+
+p#footer-contain {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+ul#footer-nav-contain {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+p#font-size-footer-name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+div#footer-color {
+    background-color: rgb(204,204,204);
+    color: rgb(102,102,102);
+}
+
+div#footer-border {
+    margin-top: 50px;
+}
+input#size-btn-search1 {
+    margin-top: -36px;
+    float: right;
+    background-image: url(../../Content/Image/logo-search.png);
+    background-size: cover;
+    width: 30px;
+    color: transparent;
+    background-color: white;
+    border: none;
+}

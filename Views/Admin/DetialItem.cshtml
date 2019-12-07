@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "DetialItem";
+    Layout = "~/Views/Shared/_MyLayoutPage.cshtml";
+}
+<div class="row">
+    <div class="col-md-5">
+
+        <table class="table table-bordered table-sm" style="margin-top:4px;">
+            <tr>
+                <th id="th-height"><p id="size-font-th">CHI TIẾT SẢN PHẨM</p></th>
+            </tr>
+            <tr>
+                <td id="td-height"><p id="size-font-th" style="margin-top:7px;">Tên Sản Phẩm: @ViewBag.Name</p></td>
+            </tr>
+            <tr>
+                <td id="td-height"><p id="size-font-th" style="margin-top:7px;">Xuất Sứ: @ViewBag.Made_in</p></td>
+            </tr>
+            <tr> 
+                <td id="td-height"><p id="size-font-th" style="margin-top:7px;">Kích Cỡ: @ViewBag.Size</p></td>
+            </tr>
+            <tr>
+                <td id="td-height"><p id="size-font-th" style="margin-top:7px;">Màu Sắc: @ViewBag.Color</p></td>
+            </tr>
+            <tr>
+                <td id="td-height"><p id="size-font-th" style="margin-top:7px;">Số Lượng: @ViewBag.Amount</p></td>
+            </tr>
+            <tr>
+                <td id="td-height"><p id="size-font-th" style="margin-top:7px;">Đơn Giá: @ViewBag.Cost Đ</p></td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="col-md-5">
+        <img src="~/Content/Image/@ViewBag.linkImg" title="@ViewBag.Name" style="width:440px; height:440px;"/>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary"><a href="@Url.Action("ListItems","Admin")" style="color:white;">Trở Về</a></button>
+    </div>
+</div>

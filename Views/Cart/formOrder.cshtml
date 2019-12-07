@@ -1,0 +1,105 @@
+﻿@model List<Shop_Shoes.Models.CartItem>
+@{
+    ViewBag.Title = "formOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    @if (Model.Count > 0)
+    {
+        <div style="float:right;">@Model.Count Sản Phẩm    |   Tổng số tiền:@String.Format("{0:0,0}", @ViewBag.price) VNĐ</div>
+    }
+    else
+    {<div style="float:right;">Số sản phẩm: 0    |   Tổng số tiền:0 VNĐ</div>}
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Mã SP</td>
+                <td>Tên SP</td>
+                <td>Ảnh</td>
+                <td>Số lượng</td>
+                <td>Đơn giá</td>
+                <td>Thành tiền</td>
+            </tr>
+        </thead>
+        @if (Model.Count > 0)
+        {
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ID</td>
+                        <td>@item.Name</td>
+                        <td><img src="~/Content/Image/@item.link" width="50px" /></td>
+                        <td style="width:10px;"><input type="text" name="txtSoLuong" value="@item.quantity" style="width:40px;" /> </td>
+                        <td>@String.Format("{0:0,0}", @item.cost) VNĐ</td>
+                        <td>@String.Format("{0:0,0}", @item.cost * @item.quantity) VNĐ</td>
+                    </tr>
+                }
+            </tbody>
+        }
+        else
+        {
+            <tr><td>Chưa có sản phẩm nào</td></tr>
+        }
+    </table>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 ">
+        @using (Html.BeginForm("formOrder", "Cart", FormMethod.Post))
+        {
+            <div class="form-group">
+                <p>Người nhận</p>
+                <input type="text" name="shipName" placeholder="Người nhận" class="form-control" />
+            </div>
+            <div class="form-group">
+                <p>Số điện thoại</p>
+                <input type="text" name="mobile" placeholder="Số điện thoại" class="form-control" />
+            </div>
+            <div class="form-group">
+                <p>Địa chỉ</p>
+                <input type="text" name="adress" placeholder="Địa chỉ" class="form-control" />
+            </div>
+            <div class="form-group">
+                <p>Email</p>
+                <input type="email" name="email" placeholder="Email" class="form-control" />
+            </div>
+            <div class="form-group" style="text-align:center;">
+                <input type="submit" value="Gửi đơn hàng" class="btn-outline-primary" />
+            </div>
+        }
+    </div>
+</div>
+<script>
+    var cart = {
+        init: function () { cart.regEvents(); },
+        regEvents: function () {
+            $('#btnContinue').off('click').on('click', function () {
+                window.location.href = "/";
+            });
+            $('#btn-Update').off('click').on('click', function () {
+                var listProduct = $('.txtQuanlity');
+                var cartList = [];
+                $.each(listProduct, function (i, item) {
+                    cartList.pop({
+                        quantity: $(this).val(),
+                        ID: $(item).data('id')
+                    });
+                });
+                $.ajax({
+                    url: 'Cart/Update',
+                    data: { cartModel: JSON.stringify(cartList) },
+                    dataType: 'json',
+                    type: 'POST',
+                    success: function (res) {
+                        if (res.status == true) { window.location.href = "/gio-hang"; }
+                        else { }
+                    }
+                })
+            });
+        }
+    }
+    cart.init();
+</script>
+

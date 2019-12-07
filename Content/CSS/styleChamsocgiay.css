@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body#fonts-family
+{ font-family:"Times New Roman", Times, serif;
+	}
+img#image-home{width:500px;height:400px;}
+
+img#image-step{
+	width:600px;
+	height:300px;
+	margin-top:5px;
+	margin-left:200px;}

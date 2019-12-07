@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+div#admin-size-border {
+    background-color: #007bff;
+    height: 443px;
+}
+div#size-table{
+    margin-left:-11px;
+}
+button#size-button {
+    width: 114%;
+    margin-left: -14px;
+    border-bottom: 1px rgb(0,0,0) solid;
+    border-top: 1px rgb(0,0,0) solid;
+    height:60px;
+}
+th#th-height {
+    height: 30px;
+}
+td#td-height {
+    height: 30px;
+}
+p#size-font-th {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin-top: 12px;
+}
+img#size-item-img {
+  width:430px; 
+  height:430px;
+}
+

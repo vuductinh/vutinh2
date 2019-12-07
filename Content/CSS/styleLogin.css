@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body#img1{
+	background:url(file:///C|/Users/Vu%20Duc%20Tinh/Downloads/bao_cao_web/image_giay/anh-nen-shoes2.jpg);
+	background-size:cover;
+	}
+div#logo-login{
+	font-size:18px;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	margin-top:50px;
+	color:rgb(153,51,255);}
+img#logo_user{
+	width:25px;
+	height:25px;
+	border-radius:100px;
+	margin-right:20px;
+	margin-top:5px;
+	}
+input#user-text{
+	width:80%;
+	margin-top:50px;}
+img#logo_pass{
+	width:25px;
+	height:25px;
+	border-radius:100px;
+	margin-right:20px;
+	margin-top:5px;
+	}
+input#pass-text{
+	width:80%;
+	margin-top:50px;}
+div#check{
+	margin-top:57px;
+	text-align:left;
+	color:rgb(0,0,0);}
+div#text{
+	margin-top:50px;
+	text-align:left;
+	color:rgb(0,0,0);}
+div#registered{
+	margin-top:50px;
+	text-align:right;
+	color:rgb(0,0,0);}
+input#submit-but{
+	width:70%;
+	height:50px;
+	text-align:center;
+	background-color:#FF20B3;
+	border-radius:30px;
+	margin-top:20px;
+	color:rgb(255,255,255);}

@@ -1,0 +1,52 @@
+﻿@using PagedList.Mvc
+@model PagedList.PagedList<Shop_Shoes.Models.Account>
+@using Shop_Shoes.Models
+@{
+    ViewBag.Title = "listAccount";
+    Layout = "~/Views/Shared/_MyLayoutPage.cshtml";
+}
+<div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+        <form class="form-group" @Url.Action("listAccount", "Account") method="post">
+            <input type="text" class="form-control" name="search" placeholder="Search..." style="width:80%; margin-top:5px;margin-bottom:-4px;" />
+            <input type="submit" value="Tìm kiếm" style="float:right; margin-top:-30px;">
+        </form>
+    </div>
+</div>
+<table class="table table-bordered table-sm">
+    <tr style="text-align:center;">
+        <th>
+            Tên Tài Khoản
+        </th>
+        <th>
+            Mật khẩu
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.User_s)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pass_word)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "editAccount", new { id = item.idAccount })
+        </td>
+    </tr>
+}
+
+</table>
+<div class="row">
+    <div class="col-md-4" style="text-align:center;"></div>
+    <div class="col-md-4">
+        <div class="clr"></div>
+        <div class="pagenavi">
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/ @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("ListAccount", new { page = page }))
+        </div>
+    </div>
+</div>

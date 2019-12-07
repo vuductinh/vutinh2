@@ -1,0 +1,104 @@
+﻿@using PagedList.Mvc;
+@model PagedList.PagedList<Shop_Shoes.Models.Item>
+@using Shop_Shoes.Models
+@{
+    ViewBag.Title = "ListItems";
+    Layout = "~/Views/Shared/_MyLayoutPage.cshtml";
+}
+<div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6">
+        <form class="form-group" @Url.Action("ListItems","Admin") method="post">
+            <input type="text" class="form-control" name="search" placeholder="Search..." style="width:80%; margin-top:5px;margin-bottom:-4px;"/>
+            <input type="submit" value="Tìm kiếm" style="float:right; margin-top:-30px;">
+        </form>
+    </div>
+</div>
+<div class="row" style="margin-top:-8px;">
+    <div class="col-md-12">
+        <table class="table table-bordered table-sm">
+            <tr>
+                <th>
+                    Tên
+                </th>
+                <th>
+                   Xuất Sứ
+                </th>
+                <th>
+                   Kích Cỡ
+                </th>
+                <th>
+                   Màu Sắc
+                </th>
+                <th>
+                    Số Lượng
+                </th>
+                <th>
+                   Đơn Giá
+                </th>
+                <th>
+                    Thể Loại
+                </th>
+                <th>@Html.ActionLink("Tạo Mới", "CreateItem")</th>
+            </tr>
+            @foreach (var item in ViewBag.List)
+            {
+        <tr>
+            <td>
+                @item.Name_Item
+            </td>
+            <td>
+                @item.Made_in
+            </td>
+            <td>
+                @item.Size
+            </td>
+            <td>
+                @item.Color
+            </td>
+            <td>
+                @item.Amount
+            </td>
+            <td>
+                @item.cost Đ
+            </td>
+            @foreach (var i in ViewBag.ListType)
+            {
+                if (i.IdType == item.Id_Type)
+                {
+                    <td>
+                        @i.Name_Type
+                    </td>
+                }
+            }
+            <td>
+                @Html.ActionLink("Sửa", "EditItem", new { id = item.IdItem }) |
+                @Html.ActionLink("Xem Chi tiết", "DetialItem", new { id = item.IdItem }) |
+                @Html.ActionLink("Xóa", "DeleteItem", new { id = item.IdItem })
+            </td>
+        </tr>
+            }
+            </table>
+    </div>
+ </div>
+<div class="row">
+    <div class="col-md-4" style="text-align:center;"></div>
+    <div class="col-md-4">
+        <div class="clr"></div>
+        <div class="pagenavi">
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/ @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("ListItems", new { page = page }))
+        </div>
+    </div>
+</div>
+<script>
+    function XacNhan()
+    {
+        document.getAnimations = window.alert("xóa thành công");
+    }
+    $(document).ready(function () {
+        $("#delete").mouseenter(function () {
+            alert("Bạn có muốn xóa");
+        });
+    });
+</script>
